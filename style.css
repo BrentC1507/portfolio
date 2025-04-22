@@ -109,7 +109,7 @@ footer {
 }
 
 .pagination_head a {
-  right: 0px;
+  justify-self: flex-end;
 }
 
 .pagination a {
