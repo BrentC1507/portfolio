@@ -76,3 +76,23 @@ footer {
   padding-top: 20px;
   font-style: italic;
 }
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  border-top: 1px solid #ccc;
+  padding-top: 15px;
+  font-family: 'Georgia', serif;
+}
+
+.pagination a {
+  color: #222;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.pagination a:hover {
+  text-decoration: underline;
+}
+
