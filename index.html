@@ -3,34 +3,37 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Static Blog – Interactive</title>
+  <title>Static Blog</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <div class="container">
     <header>
       <h1>📝 Static Blog</h1>
-      <p>with some JavaScript sauce</p>
+      <p>read-only mode: ON</p>
     </header>
 
-    <section class="new-post">
-      <h2>Write a new post</h2>
-      <form id="postForm">
-        <input type="text" id="title" placeholder="Post title" required />
-        <textarea id="content" placeholder="What’s on your mind?" required></textarea>
-        <button type="submit">Add Post</button>
-      </form>
-    </section>
+    <main>
+      <article class="post">
+        <h2 class="post-title">My First Static Post</h2>
+        <p class="post-date">April 22, 2025</p>
+        <p class="post-content">
+          This blog doesn’t need JavaScript to be cool. It’s chill. It's pure. It’s HTML and CSS, baby.
+        </p>
+      </article>
 
-    <main id="posts">
-      <!-- Posts appear here -->
+      <article class="post">
+        <h2 class="post-title">No Interactions Needed</h2>
+        <p class="post-date">April 20, 2025</p>
+        <p class="post-content">
+          If you’re just trying to vibe and write thoughts without all that JS fuss—this is it. Static and clean.
+        </p>
+      </article>
     </main>
 
     <footer>
-      <p>Made with ❤️ and localStorage</p>
+      <p>💿 Built without JS. Just HTML and CSS.</p>
     </footer>
   </div>
-
-  <script src="script.js"></script>
 </body>
 </html>
