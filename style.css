@@ -99,19 +99,6 @@ footer {
   font-family: 'Georgia', serif;
 }
 
-.pagination_head {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 40px;
-  border-top: 1px solid #ccc;
-  padding-top: 15px;
-  font-family: 'Georgia', serif;
-}
-
-.pagination_head a {
-  justify-self: flex-end;
-}
-
 .pagination a {
   color: #222;
   text-decoration: none;
