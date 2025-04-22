@@ -103,10 +103,13 @@ footer {
   display: flex;
   justify-content: space-between;
   margin-top: 40px;
-  right: 0px;
   border-top: 1px solid #ccc;
   padding-top: 15px;
   font-family: 'Georgia', serif;
+}
+
+.pagination_head a {
+  right: 0px;
 }
 
 .pagination a {
